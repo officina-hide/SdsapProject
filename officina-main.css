@@ -1,0 +1,72 @@
+BODY {
+	font-family: Meiryo UI;
+	font-size: 12pt;
+}
+
+#main {
+	margin: 0 auto;
+	width: 80%;
+	margin: 0px auto;
+}
+
+#header{
+	font-family: Meiryo UI;
+	font-size: 24pt;
+	margin: 0px;
+	display: block;
+	background-image: url("head.jpg");
+	background-repeat: no-repeat;
+	height: 100px;
+	padding-left: 20px;
+	padding-top: 10px;
+	color: #505050;
+	text-shadow: 0px 0px 15px #fff35f, 0px 0px 10px #fff88a, 0px 0px 5px #fff;
+	text-align: left;
+}
+
+#menubar ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	background-color; blue;
+	cursor: pointer;
+	/*display: block;
+		background: linear-gradient(to bottom, #0000FF, #00CCFF);
+
+	*/
+}
+
+#menubar ul li {
+	display: block; 
+	background: linear-gradient(to bottom, #0000FF, #00CCFF);
+	border: 2px solid #FFFFFF;
+	padding: 5px 20px 5px 20px;
+	margin: 0px; 
+	float: left;
+	color: white;
+	vertical-align: middle;
+}
+
+#menubar li:hover {
+	border: 2px solid #000000;
+}
+
+#menubar li a:hover {
+	color:yellow;
+	text-decoration:underline;	
+}
+
+#menubar li a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#box1 div {
+	width: 30%;
+	float: left;
+}
+
+#box2 div {
+	width: 70%;
+	float: left;
+}
